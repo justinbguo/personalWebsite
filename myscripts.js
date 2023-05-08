@@ -2,7 +2,8 @@ const carouselText = [
   {text: "student."},
   {text: "aspiring PM."},
   {text: "entrepreneur."},
-  {text: "father of 3 (just kidding lol)"},
+  {text: "father of 3."},
+  {text: "just kidding"},
   {text: "athlete."},
 ]
 

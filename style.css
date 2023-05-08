@@ -9,10 +9,10 @@
 
 
 body{
+        background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-background: #0ca528;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #185a9d, #15a828);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #199b70, #be64b5, rgb(244, 187, 33)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
         color: rgb(255, 255, 255);
@@ -34,7 +34,7 @@ svg:hover{
         height: 90vh; 
 }
 .container{
-        padding: 5px 9%;
+        padding: 5px 19%;
         align-self: center;
         justify-items: center;
         align-items: center;
@@ -168,23 +168,14 @@ ol{
         color: black; 
         border-width: 2px;
         border-style: line;
-        width: 238px; 
+        width: 230px; 
         height: 140px;
         text-align: left;
+        transition: all .3s ease-in-out; 
 }
 .recommendations:hover{
-        font-size: 12px;
-        font-family: 'Ubuntu Mono', monospace;
-        border-radius: 5px; 
-        background-color: #ffffff;
-        padding: 5px; 
-        color: rgb(65, 65, 65); 
-        border-color: white;
-        border-style: solid;
-        border-width: px;
-        width: 238px; 
-        height: 140px;
-        text-align: left; 
+        background-color: black;
+        color: white;
 }
 .row{
         display: flex;
@@ -250,7 +241,7 @@ transition: all .3s ease-in-out;
 }
 
 .grow:hover { 
-transform: scale(1.25); 
+transform: scale(1.12); 
 }
 span{
         font-size: 50px; 
