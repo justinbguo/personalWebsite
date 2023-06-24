@@ -10,22 +10,22 @@
 
 
 body{
-        background: #0c1a13b9;
+        background: #000000b9;
         color: rgb(255, 255, 255);
+
 
 }
 .border{
         border-radius: 20px; 
         box-shadow: 0 10px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
         padding: 20px; 
-
-background: linear-gradient(to right, #0a3810, #206e47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background: -webkit-linear-gradient(to right,#0a3810, #206e47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-color: #302e2e;
 
 }.border1{
         border-radius: 20px; 
         box-shadow: 0 10px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-        padding: 20px; 
+        padding: 21px; 
+        background-color: #302e2e;
 
 
 }
@@ -35,12 +35,13 @@ background: -webkit-linear-gradient(to right,#0a3810, #206e47); /* W3C, IE 10+/ 
         margin-left: 20px;
         border-color: white; 
         border-width: 1px; 
+        background-color: #ffffff;
+        color: black; 
         border-style: solid;
-         line-height: 1.5;
-          padding: 20px;
-             transition: all .3s ease-in-out; 
-             box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-             border-radius: 50px;
+        padding: 30px;
+        transition: all .3s ease-in-out; 
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        border-radius: 50px;
 }
 
 .column{
@@ -207,11 +208,22 @@ ol{
 }
 .recommendations:hover{
         
-        color: white;
-        border-color: rgb(255, 255, 255);
+        font-size: 12px;
+        font-family: 'Ubuntu Mono', monospace;
+        border-width: 3px;
+        border-radius: 5px; 
+        background-color: #ffffff;
+        padding: 5px; 
+        border-color: rgb(0, 0, 0);
+        color: rgb(47, 47, 47); 
         border-width: 2px;
-        border-style: solid; 
-        padding: 2px; 
+        border-style: solid;
+        width: 230px; 
+        height: 140px;
+        text-align: left;
+        transition: all .3s ease-in-out; 
+        margin: 10px; 
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
 }
 .row{
@@ -223,20 +235,21 @@ ol{
 }
 .picture{
         transition: all .3s ease-in-out; 
-        width: 30%; height: 30%;border-radius: 10px;filter: grayscale(100%);
+        width: 30%; height: 30%;border-radius: 10px;
+        filter: grayscale(30%);
         margin-top: 10px;
-                                        /* border-style: solid;
-                                        border-color: white;
-                                        border-width: 3px;  */
-                                        filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+        border-color: white;
+                                        border-width: 2px; 
+                                        border-radius: 2;
+                                        border-style: solid;
                                 }
+        
 
 
 .rows{
         display: flex;
         justify-content: center;
         width: 100%;
-
 }
 .rows1{
         display: flex;
@@ -278,9 +291,9 @@ footer{
         font-family: 'Ubuntu Mono', monospace;
         border-width: 3px;
         border-radius: 8px; 
-        background-color: #0d821a;
+        background-color: #ffffff;
         padding: 5px; 
-        color: rgb(255, 255, 255); 
+        color: rgb(0, 0, 0); 
         border-color: rgb(255, 255, 255);
         border-width: 2px;
         border-style: solid;
@@ -312,6 +325,12 @@ span{
 .typing-container{
         display: flex;
         justify-content: center;
+        background-color: #295331;
+
+        box-shadow: 0 10px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        
+        border-radius: 30px;
+
 }
 .typing-carousel {
         display: inline-block;
