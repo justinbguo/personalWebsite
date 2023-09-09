@@ -4,20 +4,20 @@
         letter-spacing: 1.3px;
         line-height: 1.4;
         box-sizing: border-box; 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-family: 'Kanit-Bold';
+        /* font-family: 'Kanit-Bold'; */
+        font-family: Urbanist;
 }
 
 
 body{
-        background: #000000b9;
+        background: hsla(144, 85%, 13%, 0.725);
         color: rgb(255, 255, 255);
 
 
 }
 .border{
         border-radius: 20px; 
-        box-shadow: 0 10px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        box-shadow: 0 10px 12px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
         padding: 20px; 
         background-color: #302e2e;
 
@@ -30,7 +30,7 @@ body{
 
 }
 .sillyanimation{
-        font-size: 18px;
+        font-size: 22px;
         width:95%; 
         margin-left: 20px;
         border-color: white; 
@@ -235,7 +235,8 @@ ol{
 }
 .picture{
         transition: all .3s ease-in-out; 
-        width: 30%; height: 30%;border-radius: 10px;
+        transform: scaleX(-1);
+        width: 40%; height: 40%;border-radius: 10px;
         filter: grayscale(30%);
         margin-top: 10px;
         border-color: white;
@@ -254,12 +255,12 @@ ol{
 .rows1{
         display: flex;
         width: 100%;
-        margin-left: 150px;
-        margin-top: 10px; 
+        margin-top: 3%;
+        justify-content: center;
 
 }
 a:hover{
-        color: rgb(255, 255, 0); 
+        color: rgb(255, 255, 255); 
 }
 footer{
         width: 100%; 
@@ -271,9 +272,6 @@ footer{
         border-bottom: #9a9999;
 }
 .lifeRecommendations{
-        
-        font-size: 30px;
-        font-family: 'Ubuntu Mono', monospace;
         border-width: 3px;
         border-radius: 8px; 
         background-color: #295331;
@@ -283,7 +281,7 @@ footer{
         border-width: 2px;
         border-style: solid;
         text-align: left;
-        width: 70%;
+        width: 30%;
         transition: all .3s ease-in-out; 
 }
 .lifeRecommendations:hover{
